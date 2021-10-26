@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>
+			Create Page
+		</title>
+		<script src="create_script.js"></script>
+		<link rel="stylesheet" href="create_styles.css">
+	</head>
+	<body>
+		<div>
+			<h1>
+				Create New Lift Record
+			</h1>
+		</div>
+		<div id="menu" class="mainMenu">
+						<a href="Index.html"><div class="divBtn">Home</div></a>
+		</div>
+		<div id="formBody" class="formBodyStyle">
+			<form id="createNewLift">
+				<table>
+					<tr>
+						<td>Lift Name: </td>
+						<td><input type="text" name="Lift_Name" pattern="^[A-Za-z ]+$" required="true"></input></td>
+					</tr>
+					<tr>
+						<td>Date of lift: </td>
+						<td><input type="datetime-local" name="Date" pattern="^[^<>/]+$" required="true"></input></td>
+					</tr>
+					<tr>
+						<td>Weight of Lift: </td>
+						<td><input type="number" name="One_Rep" pattern="^[^<>/]+$" required="true"></input></td>
+					</tr>
+					<tr>
+						<td>Weight Type: </td>
+						<td><select id="weight_type" name="Weight_Type" required="true"> 
+							<option value="kg">Kilograms</option>
+							<option value="lbs">Pounds</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>Location: </td>
+						<td><input type="text" name="Location" pattern="^[A-Za-z ]+$" required="true"></input></td>
+					</tr>
+					<tr>
+						<td>Previous One Rep: </td>
+						<td><input type="text" name="Previous_One_Rep" pattern="^[A-Za-z0-9. ]+$" required="true"></input></td>
+					</tr>
+					<tr>
+						<td>Previous Weight Type: </td>
+						<td><select id="previous_weight_type" name="Previous_Weight_Type" required="true">
+							<option value="kg">Kilograms</option>
+							<option value="lbs">Pounds</option>
+						</select></td>
+					</tr>
+					<tr>
+						<td>
+							<input id="hiddenIndex" type="hidden" name="Lifting_ID" pattern="^[0-9]+$" readonly="true"></input>
+						</td>
+					</tr>
+				</table>
+				<input type="submit"></input>
+			</form
+		</div>
+	</body>
+</html>

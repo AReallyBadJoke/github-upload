@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>
+			Details Page
+		</title>
+		<script src="details_script.js"></script>
+		<link rel="stylesheet" href="details_styles.css">
+	</head>
+	<body>
+		<div id="headingDisplay">
+			<h1> Lifting Record </h1>
+		</div>
+		<div id="menu" class="mainMenu">
+			<a href="Index.html"><div class="divBtn">Home</div></a>
+			<a href="Create.html"><div class="divBtn">Create</div></a>
+		</div>
+		<div id="mainDisplay" class="mainDisplay">
+			<table id="displayTable" class="mainDisplayTable">
+				<thead>
+					<tr>
+						<th scope="col" class="Lift-Name-header">Lift Name</th>
+						<th scope="col" class="Date-header">Date</th>
+						<th scope="col" class="One-Rep-header">Weight Lifted</th>
+						<th scope="col" class="Weight-type-header">Weight Type</th>
+						<th scope="col" class="location-header">Location</th>
+						<th scope="col" cleass="previous-lift-header">Previous One Rep</th>
+						<th scope="col" cleass="previous-lift-type-header">Previous Weight Type</th>
+						<th scope="col" cleass="previous-Date-header">Previous Date</th>
+						<th scope="col" cleass="ID-header">ID</th>
+					<tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		<br/>
+		<div id="itemBreakdown" class="ibreakdown">
+			<div id="percentageChartDisplay" class="percentDiv">
+				<h2> Percentage Breakdown </h2>
+				<table id="percentageChart" class="percentageChartDisplay" >
+					<thead>
+						<tr>
+							<th>Percentage</th>
+							<th>Weight</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+			<div id="chartArea" class="chartedArea">
+				<h2>Charted lifting </h2>
+				<div id="chart">
+					<canvas id="progressChart">
+					</canvas>
+				</div>
+			</div>
+		</div>
+		<br/>
+		</div>
+	</body>
+</html>

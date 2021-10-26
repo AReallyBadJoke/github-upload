@@ -1,0 +1,96 @@
+
+.mainDisplay{
+	border:solid;
+	width: 80%;
+	border-collapse: collapse;
+}
+
+.mainDisplayTable{
+	width:90%;
+	padding:1%;
+	margin:1%;
+	border:solid;
+}
+
+.ibreakdown{
+	width:90%;
+	height:500px;
+	padding:1%;
+	display:flex;
+	justify-content: space-around;
+}
+
+tr{
+	text-align:center;
+}
+
+.chartedArea{
+	padding:.5%;
+	margin:5px;
+	width:74%;
+	height:400px;
+	display: inline-block;
+	background-color:lightblue;
+
+}
+
+.percentDiv{
+	padding:.5%;
+	margin:5px;
+	width:25%;
+	height:400px;
+	display: inline-block;
+	background-color:lightgrey;
+}
+
+.percentageChartDisplay{
+	border:solid;
+	width: 100%;
+	border-collapse: collapse; 
+}
+
+.ptd{
+	border-top:solid;
+	border-left:solid;
+	width:50%;
+}
+
+button{
+  width:10%;
+  background-color: #4295f5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:5px;
+}
+
+button.hover, button.active {
+	background-color: red;
+}
+
+.mainMenu{
+	background-color:#022673;
+	width:12%;
+	height:25px;
+	border-radius:5px 5px 0px 0px;
+	display:flex;
+
+}
+
+
+a:link, a:visited {
+  width:100%;
+  background-color: #4295f5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:5px;
+  margin:2px;
+  height:20px;
+}
+
+a:hover, a:active {
+  background-color: #054b9c;
+}

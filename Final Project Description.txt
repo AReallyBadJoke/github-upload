@@ -1,0 +1,26 @@
+My website is a tracker for one repetition maximum lifting data.  It will allow users to input what they lift as a one rep max.  
+It will present the user their one rep max and a table with a percentage breakdown for use with programming based on percent of one rep max.
+
+This website displays lifting information to the user.
+
+Properties:
+	Lift Name - string
+	Date of one rep max - date
+	one rep max - number
+	Bumpper type - string - Imperial or Metric
+	location - string
+	Previous one rep max - number
+
+
+What are examples of valid and invalid values for the properties?
+Property		Valid				Invalid
+Lift Name  		Letters	strings			Numbers and symbols
+Date of one Rep Numbers and '/'     Letters					This field has been set up with a date picker.
+One Rep Max		Numbers and '.'		Letters and symbols		. is an exception to the symbols.
+Bumpper type	letter strings		Numbers					I used a dropdown list.  Should only allow two choices and no manual input.
+Location		Letters and numbers	symbols
+Previous 1RM	Numbers				Letters and symbols 	. is an exception to the symbols.
+Previous Type	Letters				Number and Symbols		This is a dropdown list.   Should only allow two choices and no manual input.
+Hidden Field	Numbers				letters and symbols		This is a hidden field.  It's to add the ID to the record.
+
+

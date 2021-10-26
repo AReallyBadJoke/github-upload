@@ -1,0 +1,52 @@
+a:link, a:visited {
+  width:100%;
+  background-color: #4295f5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:6px;
+  margin:2px;
+  height:20px;
+}
+
+a:hover, a:active {
+  background-color: #054b9c;
+}
+
+button{
+  width:10%;
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:5px;
+}
+
+button.hover, button.active {
+	background-color: red;
+}
+
+.mainMenu{
+	background-color:#022673;
+	width:5%;
+	height:25px;
+	border-radius:5px 5px 0px 0px;
+	display:flex;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  width:5%;
+  background-color: #4295f5;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.formBodyStyle{
+	border:solid;
+}
